@@ -1,1 +1,1 @@
-export const BACKEND_URL : string = "localhost:3001/api/"
+export const BACKEND_URL : string = "https://cadextest-backend-f44e56-026c4f-147-45-175-42.traefik.me/api/triangulate"
