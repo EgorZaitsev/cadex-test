@@ -1,0 +1,32 @@
+.box-form .ant-form-item-label > label {
+    color: inherit;
+}
+
+.box-form .ant-input-number {
+    width: 100%;
+}
+
+.box-form .ant-input-number:focus,
+.box-form .ant-input-number-focused {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.box-form .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+}
+
+.box-form .ant-btn-primary:hover,
+.box-form .ant-btn-primary:focus {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+.dark-label {
+    color: white;
+}
+
+.light-label {
+    color: black;
+}

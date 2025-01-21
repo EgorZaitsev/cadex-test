@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+*.dark-mode {
+  background-color: #001529;
+  color: #ffffff;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #001529;
+  color: #ffffff;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.scene-container {
+  flex: 2;
+
+}
+
+.light .form-container {
+  background-color: #f0f2f5;
+}
+
+.dark .form-container {
+  background-color: #1f1f1f;
+}
+
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark {
+  background-color: #001529;
+  color: #ffffff;
+}
+
+
+

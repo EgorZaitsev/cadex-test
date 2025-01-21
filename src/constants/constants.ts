@@ -1,0 +1,1 @@
+export const BACKEND_URL : string = "localhost:3001/api/"
